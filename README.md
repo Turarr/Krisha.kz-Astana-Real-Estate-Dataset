@@ -8,7 +8,7 @@
 | **price**               | int64     | Apartment price in Kazakhstani tenge (KZT).                                                        |
 | **security**            | object    | Security features of the building (e.g., intercom, video surveillance, concierge, security guard). |
 | **ceiling_height**      | float64   | Ceiling height in meters.                                                                          |
-| **Год постройки**       | int64     | Year the building was constructed.                                                                 |
+| **year_of_construction**       | int64     | Year the building was constructed.                                                                 |
 | **district**            | object    | Administrative district of Astana where the apartment is located (e.g., Есильский, Сарыаркинский). |
 | **residential_complex** | object    | Name of the residential complex (ЖК). If not specified, may contain default or generic values.     |
 | **furnished**           | object    | Furnishing status of the apartment (e.g., fully furnished, without furniture).                     |
@@ -26,3 +26,8 @@
 | **apartment_lat**       | float64   | Latitude coordinate of the apartment location.                                                     |
 | **apartment_lon**       | float64   | Longitude coordinate of the apartment location.                                                    |
 | **coord_level**         | object    | Level of coordinate precision (e.g., district-level or exact apartment-level geolocation).         |
+
+## Code instruction:
+1. The 'scraping_krisha.py' runs in terminal with 'python scraping_krisha.py [numbers of pages to extract]'. After you get 'krisha_data_raw.csv'.
+2. Run all cells in 'cleaning_preparing.ipynb' for 'krisha_data_raw.csv', the geocoding part is optional, it also takes all ot of time. You will get 'astana_real_estate_dataset.csv'.
+3. The 'astana_real_estate_dataset.csv' is ready.
