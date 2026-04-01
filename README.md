@@ -1,5 +1,7 @@
 # Krisha.kz Astana Real Estate Dataset
 
+**On Kaggle:** https://www.kaggle.com/datasets/turarr/astana-real-estate-dataset
+
 ## 📊 Astana Real Estate Dataset – Column Description
 | Column Name             | Data Type | Description                                                                                        |
 | ----------------------- | --------- | -------------------------------------------------------------------------------------------------- |
